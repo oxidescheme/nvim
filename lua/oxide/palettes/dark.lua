@@ -4,7 +4,7 @@
 ---@class Palette
 local M = {
 	-- Base16 background to foreground (base00-07)
-	bg0 = "#0f0f0f", -- base00: Default Background
+	bg0 = "#141414", -- base00: Default Background
 	bg1 = "#191919", -- base01: Lighter Background (status bars, line numbers)
 	bg2 = "#232323", -- base02: Selection Background
 	bg3 = "#4a4a4a", -- base03: Comments, Invisibles, Line Highlighting
@@ -16,7 +16,7 @@ local M = {
 	-- Base16 accent colors (base08-0F)
 	red = "#ff6370", -- base08: Variables, XML Tags, Markup Link Text, Diff Deleted
 	orange = "#ff9500", -- base09: Integers, Boolean, Constants, XML Attributes
-	yellow = "#ffcc02", -- base0A: Classes, Markup Bold, Search Text Background
+	yellow = "#1aa7ff", -- base0A: Classes, Markup Bold, Search Text Background
 	green = "#42be65", -- base0B: Strings, Inherited Class, Markup Code, Diff Inserted
 	cyan = "#08bdba", -- base0C: Support, Regular Expressions, Escape Characters
 	blue = "#33b1ff", -- base0D: Functions, Methods, Attribute IDs, Headings

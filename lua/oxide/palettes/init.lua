@@ -23,7 +23,7 @@ local function create_theme(palette, opts)
 		bg_light = palette.bg2,
 		bg_float = opts.transparent and "NONE" or palette.bg0,
 		fg = palette.fg1,
-		fg_dark = palette.fg0,
+		fg_dark = palette.bg3,
 		fg_light = palette.fg2,
 
 		-- Borders and separators
@@ -31,7 +31,7 @@ local function create_theme(palette, opts)
 		border_highlight = palette.cyan,
 
 		-- Selection and search
-		selection = util.blend(palette.cyan, palette.bg0, 0.3),
+		selection = palette.bg2,
 		search = util.blend(palette.yellow, palette.bg0, 0.3),
 
 		-- Cursor and line
@@ -79,7 +79,7 @@ local function create_theme(palette, opts)
 		error = palette.red,
 		warning = palette.orange,
 		info = palette.blue,
-		hint = palette.bg3,
+		hint = palette.fg0,
 		ok = palette.green,
 	}
 
