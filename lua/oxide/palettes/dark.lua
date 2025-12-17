@@ -5,9 +5,9 @@
 local M = {
 	-- Base16 background to foreground (base00-07)
 	bg0 = "#0f0f0f", -- base00: Default Background
-	bg1 = "#1a1a1a", -- base01: Lighter Background (status bars, line numbers)
-	bg2 = "#2c2c2c", -- base02: Selection Background
-	bg3 = "#444444", -- base03: Comments, Invisibles, Line Highlighting
+	bg1 = "#191919", -- base01: Lighter Background (status bars, line numbers)
+	bg2 = "#232323", -- base02: Selection Background
+	bg3 = "#4a4a4a", -- base03: Comments, Invisibles, Line Highlighting
 	fg0 = "#c8cdd2", -- base04: Dark Foreground (status bars)
 	fg1 = "#e0e4e8", -- base05: Default Foreground, Caret, Delimiters
 	fg2 = "#f2f4f8", -- base06: Light Foreground
