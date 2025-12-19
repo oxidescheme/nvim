@@ -28,6 +28,17 @@ Where function meets form.
 Built around clarity and restraint, it uses a deep near-black background, crisp white foregrounds, and soft pastel accents to emphasize structure without visual noise.
 </p>
 
+## Design Philosophy
+
+oxide is built on three core principles:
+
+- **Semantic Color**: Every hue has meaning—red for functions, blue for properties, white for variables
+- **Cognitive Clarity**: Reduce mental overhead through consistent, predictable visual patterns  
+- **Aesthetic Restraint**: Beautiful doesn't mean busy; elegance lies in what's left out
+
+The full design philosophy, color psychology research, and development methodology are documented
+in the [main oxide repository](https://github.com/oxidescheme/oxide).
+
 ## Features
 
 - **Dual variants**: Dark and light themes that adapt to any environment
