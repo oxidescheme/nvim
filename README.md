@@ -16,6 +16,10 @@ Where function meets form.
 </p>
 
 <p align="center">
+  <img src="assets/dashboard.png" alt="oxide.nvim dashboard showcase">
+</p>
+
+<p align="center">
   <img src="assets/picker.png" alt="oxide.nvim picker showcase">
 </p>
 
