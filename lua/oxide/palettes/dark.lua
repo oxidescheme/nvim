@@ -8,12 +8,11 @@ local M = {
 	mantle = "#191919", -- Sidebars, line numbers
 	surface0 = "#232323", -- Selection background
 	surface1 = "#2a2a2a", -- Subtle backgrounds
-	overlay0 = "#4a4a4a", -- Comments, borders, subtle elements
+	subtext1 = "#4a4a4a", -- Comments, borders, subtle elements
 
 	-- Text colors (foregrounds, ordered light to dark)
 	text = "#e0e4e8", -- Primary text
-	subtext1 = "#c8cdd2", -- Secondary text
-	subtext0 = "#b0b5ba", -- Tertiary text
+	subtext0 = "#c8cdd2", -- Secondary text
 	overlay1 = "#5a5a5a", -- Muted text
 
 	-- Semantic colors with clear purposes
@@ -25,7 +24,7 @@ local M = {
 	sky = "#1aa7ff", -- Classes, types, bold markup
 	sapphire = "#33b1ff", -- Functions, methods, headings
 	blue = "#33b1ff", -- Variables, identifiers (your preference!)
-	lavender = "#be95ff", -- Keywords, storage, changed items
+	purple = "#be95ff", -- Keywords, storage, changed items
 	pink = "#ee5396", -- Deprecated, special tags
 	mauve = "#d4a5ff", -- Operators, punctuation
 

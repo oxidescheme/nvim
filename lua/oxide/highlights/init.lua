@@ -62,15 +62,15 @@ function M.setup(colors, config)
 		vim.g.terminal_color_2 = c.green
 		vim.g.terminal_color_3 = c.orange
 		vim.g.terminal_color_4 = c.sapphire
-		vim.g.terminal_color_5 = c.lavender
+		vim.g.terminal_color_5 = c.purple
 		vim.g.terminal_color_6 = c.teal
 		vim.g.terminal_color_7 = c.text
-		vim.g.terminal_color_8 = c.subtext1
+		vim.g.terminal_color_8 = c.subtext0
 		vim.g.terminal_color_9 = c.red
 		vim.g.terminal_color_10 = c.green
 		vim.g.terminal_color_11 = c.orange
 		vim.g.terminal_color_12 = c.sapphire
-		vim.g.terminal_color_13 = c.lavender
+		vim.g.terminal_color_13 = c.purple
 		vim.g.terminal_color_14 = c.teal
 		vim.g.terminal_color_15 = c.text
 	end

@@ -43,9 +43,9 @@ function M.setup(colors, config)
 
 		-- Keywords
 		["@keyword"] = { link = "Keyword" },
-		["@keyword.function"] = { fg = c.lavender },
-		["@keyword.return"] = { fg = c.lavender },
-		["@keyword.operator"] = { fg = c.lavender },
+		["@keyword.function"] = { fg = c.purple },
+		["@keyword.return"] = { fg = c.purple },
+		["@keyword.operator"] = { fg = c.purple },
 		["@conditional"] = { link = "Conditional" },
 		["@repeat"] = { link = "Repeat" },
 		["@exception"] = { link = "Exception" },
@@ -88,7 +88,7 @@ function M.setup(colors, config)
 		["@markup.heading"] = { fg = c.sapphire, bold = true },
 		["@markup.link"] = { fg = c.sky },
 		["@markup.link.url"] = { fg = c.teal, underline = true },
-		["@markup.list"] = { fg = c.lavender },
+		["@markup.list"] = { fg = c.purple },
 
 		-- Errors
 		["@error"] = { link = "Error" },

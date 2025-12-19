@@ -10,7 +10,7 @@ function M.setup(colors, config)
 
 	return {
 		-- Comments
-		Comment = vim.tbl_extend("force", { fg = c.overlay0 }, styles.comments or {}),
+		Comment = vim.tbl_extend("force", { fg = c.subtext1 }, styles.comments or {}),
 
 		-- Constants
 		Constant = { fg = c.orange },
@@ -25,13 +25,13 @@ function M.setup(colors, config)
 		Function = vim.tbl_extend("force", { fg = c.red }, styles.functions or {}),
 
 		-- Statements
-		Statement = { fg = c.lavender },
-		Conditional = vim.tbl_extend("force", { fg = c.lavender }, styles.keywords or {}),
-		Repeat = vim.tbl_extend("force", { fg = c.lavender }, styles.keywords or {}),
-		Label = { fg = c.lavender },
+		Statement = { fg = c.purple },
+		Conditional = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
+		Repeat = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
+		Label = { fg = c.purple },
 		Operator = { fg = c.mauve },
-		Keyword = vim.tbl_extend("force", { fg = c.lavender }, styles.keywords or {}),
-		Exception = { fg = c.lavender },
+		Keyword = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
+		Exception = { fg = c.purple },
 
 		-- Preproc
 		PreProc = { fg = c.teal },
@@ -42,7 +42,7 @@ function M.setup(colors, config)
 
 		-- Types
 		Type = { fg = c.sky },
-		StorageClass = { fg = c.lavender },
+		StorageClass = { fg = c.purple },
 		Structure = { fg = c.sky },
 		Typedef = { fg = c.sky },
 
