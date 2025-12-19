@@ -1,20 +1,14 @@
-<h3 align="center">
-oxide.nvim
-</h3>
+<div align="center">
+
+# Nyoom.nvim
+
+</div>
 
 <h6 align="center">
-Function first. Minimal by design.
+Where function meets form.
 </h6>
 
-<h6 align="center">
-<a href="#installation">Installation</a>
-·
-<a href="#usage">Usage</a>
-·
-<a href="#configuration">Configuration</a>
-·
-<a href="#palette">Palette</a>
-</h6>
+<div align="center">
 
 <p align="center">
   <a href="https://github.com/oxidescheme/oxide.nvim/stargazers"><img src="https://img.shields.io/github/stars/oxidescheme/oxide.nvim?colorA=141414&colorB=33b1ff&style=for-the-badge"></a>
@@ -27,13 +21,13 @@ Function first. Minimal by design.
   <img src="assets/picker.png" alt="oxide.nvim picker showcase">
 </p>
 
+<p align="center">
+  <img src="assets/syntax.png" alt="oxide.nvim syntax highlighting">
+</p>
+
 <p>
 <b>oxide.nvim</b> brings the oxide colorscheme to Neovim with full TreeSitter and LSP support.
 Built around clarity and restraint, it uses a deep near-black background, crisp white foregrounds, and soft pastel accents to emphasize structure without visual noise.
-</p>
-
-<p align="center">
-  <img src="assets/syntax.png" alt="oxide.nvim syntax highlighting">
 </p>
 
 ## Features
@@ -139,37 +133,6 @@ require("oxide").setup({
 | `on_colors` | `nil` | Function to override color palette |
 | `on_highlights` | `nil` | Function to override highlight groups |
 
-## Palette
-
-oxide uses a carefully crafted Base16-compliant palette with two variants. Because apparently having 16.7 million colors available wasn't overwhelming enough.
-
-### Dark Variant
-
-- **Background**: `#141414` (void-like depth)
-- **Foreground**: `#e0e4e8` (crisp clarity)
-- **Accents**: Soft pastels that guide without overwhelming
-
-### Light Variant  
-
-- **Background**: `#ffffff` (paper-like clarity)
-- **Foreground**: `#374151` (readable contrast)
-- **Accents**: Refined tones for high-ambient environments
-
-### Full Color Reference
-
-| Color | Dark | Light | Usage |
-|-------|------|-------|--------|
-| **Background** | `#141414` | `#ffffff` | Editor background |
-| **Foreground** | `#e0e4e8` | `#374151` | Main text |
-| **Red** | `#ff6370` | `#dc2626` | Errors, deletions |
-| **Orange** | `#ff9500` | `#ea580c` | Constants, attributes |
-| **Ocean** | `#1aa7ff` | `#d97706` | Classes, warnings |
-| **Green** | `#42be65` | `#059669` | Strings, additions |
-| **Cyan** | `#08bdba` | `#0891b2` | Regex, escape chars |
-| **Blue** | `#33b1ff` | `#0369a1` | Functions, methods |
-| **Purple** | `#be95ff` | `#7c3aed` | Keywords, storage |
-| **Pink** | `#ee5396` | `#be185d` | Deprecated, tags |
-
 ## Advanced Usage
 
 ### Manual Theme Switching
@@ -204,10 +167,11 @@ require("oxide").setup({
 
 oxide.nvim works seamlessly with popular plugins. No extra configuration required, which is a rare treat in the Neovim ecosystem.
 
-- **[lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)**: Built-in oxide theme
-- **[nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)**: Properly styled file explorer
-- **[telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)**: Clean search interface
-- **[gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)**: Clear git indicators
+- **[lualine](https://github.com/nvim-lualine/lualine.nvim)**: Built-in oxide theme
+- **[nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**: Properly styled file explorer
+- **[telescope](https://github.com/nvim-telescope/telescope.nvim)**: Clean search interface
+- **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**: Clear git indicators
+- **[snacks](https://github.com/folke/snacks.nvim)**: Clean and minimal fuzzy picker
 
 ## Contributing
 
@@ -230,4 +194,3 @@ MIT License - see [LICENSE](LICENSE) for details.
 <p align="center">
 Copyright &copy; 2025-present oxidescheme
 </p>
-
