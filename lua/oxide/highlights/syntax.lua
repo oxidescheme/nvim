@@ -29,7 +29,7 @@ function M.setup(colors, config)
 		Conditional = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
 		Repeat = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
 		Label = { fg = c.purple },
-		Operator = { fg = c.mauve },
+		Operator = { fg = c.text },
 		Keyword = vim.tbl_extend("force", { fg = c.purple }, styles.keywords or {}),
 		Exception = { fg = c.purple },
 

@@ -9,7 +9,8 @@ function M.setup(colors, config)
 
 	return {
 		-- Dashboard
-		SnacksDashboardFooter = { fg = c.subtext0 },
+		SnacksDashboardHeader = { fg = c.subtext1 },
+		SnacksDashboardFooter = { fg = c.subtext1 },
 		SnacksDashboardKey = { fg = c.text, { bold = true } },
 		SnacksBackdrop = { bg = "NONE" },
 	}
