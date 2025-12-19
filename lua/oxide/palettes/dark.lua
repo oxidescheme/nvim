@@ -1,6 +1,3 @@
--- Oxide dark palette - Direct semantic approach inspired by Catppuccin
--- No more base16 constraints - each color has a clear semantic purpose
-
 ---@class Palette
 local M = {
 	-- Surface colors (backgrounds, ordered dark to light)

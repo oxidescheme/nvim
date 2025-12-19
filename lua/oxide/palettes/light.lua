@@ -1,30 +1,39 @@
--- Light mode palette - base16 color definitions
--- Based on base16 guidelines: https://github.com/chriskempson/base16/blob/main/styling.md
+-- Oxide light palette - Optimized for readability and eye comfort
+-- Semantic colors adjusted for light background contrast
 
 ---@class Palette
 local M = {
-	-- Base16 background to foreground (base00-07) - reversed for light theme
-	bg0 = "#ffffff",        -- base00: Default Background
-	bg1 = "#f8f8f8",        -- base01: Lighter Background (status bars, line numbers)
-	bg2 = "#f0f0f0",        -- base02: Selection Background
-	bg3 = "#e8e8e8",        -- base03: Comments, Invisibles, Line Highlighting
-	fg0 = "#6b7280",        -- base04: Dark Foreground (status bars)
-	fg1 = "#374151",        -- base05: Default Foreground, Caret, Delimiters
-	fg2 = "#1f2937",        -- base06: Light Foreground
-	fg3 = "#080808",        -- base07: Light Background
+	-- Surface colors (backgrounds, ordered light to dark for light theme)
+	base = "#fafafa", -- Main background (softer than pure white)
+	mantle = "#f0f0f0", -- Sidebars, line numbers
+	surface0 = "#e8e8e8", -- Selection background
+	surface1 = "#e0e0e0", -- Subtle backgrounds
+	surface2 = "#d0d0d0", -- Borders, separators
 
-	-- Base16 accent colors (base08-0F) - adjusted for light background
-	red = "#dc2626",        -- base08: Variables, XML Tags, Markup Link Text, Diff Deleted
-	orange = "#ea580c",     -- base09: Integers, Boolean, Constants, XML Attributes
-	yellow = "#d97706",     -- base0A: Classes, Markup Bold, Search Text Background
-	green = "#059669",      -- base0B: Strings, Inherited Class, Markup Code, Diff Inserted
-	cyan = "#0891b2",       -- base0C: Support, Regular Expressions, Escape Characters
-	blue = "#0369a1",       -- base0D: Functions, Methods, Attribute IDs, Headings
-	purple = "#7c3aed",     -- base0E: Keywords, Storage, Selector, Diff Changed
-	pink = "#be185d",       -- base0F: Deprecated, Opening/Closing Language Tags
+	-- Text colors (foregrounds, ordered dark to light for light theme)
+	text = "#1a1a1a", -- Primary text (dark but not pure black)
+	subtext0 = "#2d2d2d", -- Secondary text
+	subtext1 = "#4a4a4a", -- Tertiary text
+	overlay0 = "#666666", -- Comments, subtle elements (much darker for visibility)
+	overlay1 = "#808080", -- Disabled text
+	overlay2 = "#a0a0a0", -- Muted elements
 
-	-- Special colors
+	-- Semantic colors adjusted for light backgrounds
+	red = "#c1414b", -- Errors, critical items (toned down)
+	orange = "#d17000", -- Warnings, numbers, constants (darker)
+	yellow = "#b8860b", -- Attention, search highlights (darker gold)
+	green = "#2d7d32", -- Success, strings, added items (darker green)
+	teal = "#006064", -- Special elements, regex, escape chars (much darker)
+	sky = "#1565c0", -- Classes, types, bold markup (darker blue)
+	sapphire = "#0277bd", -- Functions, methods, headings (darker)
+	blue = "#1976d2", -- Variables, identifiers (good contrast)
+	lavender = "#7b1fa2", -- Keywords, storage, changed items (darker purple)
+	pink = "#c2185b", -- Deprecated, special tags (darker pink)
+	mauve = "#8e24aa", -- Operators, punctuation (darker mauve)
+
+	-- Special
 	none = "NONE",
 }
 
 return M
+
