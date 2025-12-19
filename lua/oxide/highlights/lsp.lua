@@ -2,9 +2,8 @@
 local M = {}
 
 ---@param colors table
----@param config table
 ---@return table
-function M.setup(colors, config)
+function M.setup(colors)
 	local c = colors.colors
 
 	local highlights = {
@@ -34,19 +33,19 @@ function M.setup(colors, config)
 		DiagnosticError = { fg = c.red },
 		DiagnosticWarn = { fg = c.orange },
 		DiagnosticInfo = { fg = c.sapphire },
-		DiagnosticHint = { fg = c.subtext },
+		DiagnosticHint = { fg = c.text },
 
 		-- Diagnostic underlines
 		DiagnosticUnderlineError = { sp = c.red, undercurl = true },
 		DiagnosticUnderlineWarn = { sp = c.orange, undercurl = true },
 		DiagnosticUnderlineInfo = { sp = c.sapphire, undercurl = true },
-		DiagnosticUnderlineHint = { sp = c.subtext, undercurl = true },
+		DiagnosticUnderlineHint = { sp = c.text, undercurl = true },
 
 		-- Diagnostic virtual text
 		DiagnosticVirtualTextError = { fg = c.red, bg = "NONE" },
 		DiagnosticVirtualTextWarn = { fg = c.orange, bg = "NONE" },
 		DiagnosticVirtualTextInfo = { fg = c.sapphire, bg = "NONE" },
-		DiagnosticVirtualTextHint = { fg = c.subtext, bg = "NONE" },
+		DiagnosticVirtualTextHint = { fg = c.text, bg = "NONE" },
 
 		-- LSP references
 		LspReferenceText = { bg = c.surface1 },
