@@ -77,7 +77,7 @@ function M.setup(colors, config)
 
 		-- Misc
 		Directory = { fg = c.sapphire },
-		Title = { fg = c.red, bold = true },
+		Title = { fg = c.text, bold = true },
 		Bold = { bold = true },
 		Italic = { italic = true },
 		Underlined = { underline = true },

@@ -9,10 +9,9 @@ function M.setup(colors, config)
 
 	return {
 		-- Dashboard
-		SnacksDashboardTitle = { fg = c.text },
-		SnacksDashboardHeader = { fg = c.text },
 		SnacksDashboardFooter = { fg = c.subtext0 },
 		SnacksDashboardKey = { fg = c.text, { bold = true } },
+		SnacksBackdrop = { bg = "NONE" },
 	}
 end
 
