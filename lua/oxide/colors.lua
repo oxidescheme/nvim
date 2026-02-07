@@ -6,16 +6,16 @@ local M = {}
 ---@class Palette
 local palette = {
 	-- Surface colors
-	base = "#141414", -- Main background
-	mantle = "#191919", -- Sidebars, line numbers
-	surface0 = "#232323", -- Selection background
-	surface1 = "#2a2a2a", -- Subtle backgrounds
-	surface2 = "#4a4a4a", -- Comments, borders, subtle elements
+	mantle = "#0b0b0b", -- oklch(0.15 0 0) Mantle
+	base = "#161616", -- oklch(0.20 0 0) Main background
+	surface0 = "#232323", -- oklch(0.26 0 0) Selection background
+	surface1 = "#2a2a2a", -- oklch(0.28 0 0) Subtle backgrounds
 
 	-- Text colors
-	text = "#cfcfcf", -- Primary text
-	subtext0 = "#b8b8b8", -- Secondary text
-	subtext1 = "#8a8a8a", -- Muted text
+	text = "#cecece", -- oklch(0.85 0 0) Primary text
+	subtext0 = "#b8b8b8", -- oklch(0.78 0 0) Secondary text
+	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
+	subtext2 = "#484848", -- oklch(0.40 0 0) Comments, borders, subtle elements
 
 	-- Accent colors
 	red = "#ff6370", -- Errors, critical items
@@ -62,4 +62,3 @@ function M.setup(opts)
 end
 
 return M
-

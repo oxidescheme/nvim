@@ -57,7 +57,7 @@ function M.setup(colors)
 
 		-- LSP code lens
 		LspCodeLens = { fg = c.subtext1 },
-		LspCodeLensSeparator = { fg = c.surface2 },
+		LspCodeLensSeparator = { fg = c.subtext2 },
 
 		-- LSP inlay hints
 		LspInlayHint = { fg = c.subtext1, bg = c.surface0 },

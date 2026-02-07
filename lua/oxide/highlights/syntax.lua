@@ -10,7 +10,7 @@ function M.setup(colors, config)
 
 	return {
 		-- Comments
-		Comment = vim.tbl_extend("force", { fg = c.surface2 }, styles.comments or {}),
+		Comment = vim.tbl_extend("force", { fg = c.subtext2 }, styles.comments or {}),
 
 		-- Constants
 		Constant = { fg = c.orange },

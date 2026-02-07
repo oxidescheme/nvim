@@ -31,12 +31,12 @@ local theme = {
 		c = { bg = bg_color(colors.base), fg = colors.text },
 	},
 	replace = {
-		a = { bg = colors.surface2, fg = colors.text, gui = "bold" },
+		a = { bg = colors.subtext2, fg = colors.text, gui = "bold" },
 		b = { bg = bg_color(colors.base), fg = colors.text },
 		c = { bg = bg_color(colors.base), fg = colors.text },
 	},
 	command = {
-		a = { bg = colors.mantle, fg = colors.text, gui = "bold" },
+		a = { bg = colors.surface0, fg = colors.text, gui = "bold" },
 		b = { bg = bg_color(colors.base), fg = colors.text },
 		c = { bg = bg_color(colors.base), fg = colors.text },
 	},

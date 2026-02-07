@@ -21,9 +21,9 @@ function M.setup(colors, config)
 		CursorLineNr = { fg = c.text, bold = true },
 
 		-- Line numbers
-		LineNr = { fg = c.surface2 },
-		SignColumn = { fg = c.surface2, bg = c.base },
-		FoldColumn = { fg = c.surface2, bg = c.base },
+		LineNr = { fg = c.subtext2 },
+		SignColumn = { fg = c.subtext2, bg = c.base },
+		FoldColumn = { fg = c.subtext2, bg = c.base },
 
 		-- Folding
 		Folded = { fg = c.subtext0, bg = c.surface1 },
@@ -44,24 +44,24 @@ function M.setup(colors, config)
 		WarningMsg = { fg = c.orange },
 
 		-- Status line
-		StatusLine = { fg = c.text, bg = c.mantle },
-		StatusLineNC = { fg = c.subtext0, bg = c.mantle },
+		StatusLine = { fg = c.text, bg = c.base },
+		StatusLineNC = { fg = c.subtext0, bg = c.base },
 
 		-- Tab line
-		TabLine = { fg = c.subtext0, bg = c.mantle },
-		TabLineFill = { bg = c.mantle },
-		TabLineSel = { fg = c.text, bg = c.surface0 },
+		TabLine = { fg = c.subtext0, bg = c.base },
+		TabLineFill = { bg = c.base },
+		TabLineSel = { fg = c.text, bg = c.base },
 
 		-- Popup menu
 		Pmenu = { fg = c.text, bg = c.surface0 },
 		PmenuSel = { fg = c.text, bg = c.surface1, bold = true },
 		PmenuSbar = { bg = c.surface1 },
-		PmenuThumb = { bg = c.surface2 },
+		PmenuThumb = { bg = c.subtext2 },
 
 		-- Borders
-		FloatBorder = { fg = c.surface2, bg = config.transparent and "NONE" or c.base },
-		WinSeparator = { fg = c.surface2 },
-		VertSplit = { fg = c.surface2 }, -- Legacy
+		FloatBorder = { fg = c.subtext2, bg = config.transparent and "NONE" or c.base },
+		WinSeparator = { fg = c.subtext2 },
+		VertSplit = { fg = c.subtext2 }, -- Legacy
 
 		-- Diff highlighting (simple direct colors)
 		DiffAdd = { bg = c.green, fg = c.base },
@@ -86,13 +86,13 @@ function M.setup(colors, config)
 		Terminal = { fg = c.text, bg = c.base },
 
 		-- Others
-		NonText = { fg = c.surface2 },
+		NonText = { fg = c.subtext2 },
 		EndOfBuffer = { fg = c.base },
 		Conceal = { fg = c.subtext1 },
 		SpecialKey = { fg = c.subtext1 },
-		Whitespace = { fg = c.surface2 },
+		Whitespace = { fg = c.subtext2 },
 		WildMenu = { fg = c.text, bg = c.surface1 },
-		MatchParen = { fg = c.text, bg = c.surface2, underline = true },
+		MatchParen = { fg = c.text, bg = c.subtext2, underline = true },
 	}
 end
 
