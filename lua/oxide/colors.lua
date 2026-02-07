@@ -8,12 +8,12 @@ local palette = {
 	-- Surface colors
 	mantle = "#0b0b0b", -- oklch(0.15 0 0) Mantle
 	base = "#161616", -- oklch(0.20 0 0) Main background
-	surface0 = "#232323", -- oklch(0.26 0 0) Selection background
-	surface1 = "#2a2a2a", -- oklch(0.28 0 0) Subtle backgrounds
+	surface0 = "#222222", -- oklch(0.25 0 0) Cursor background
+	surface1 = "#262626", -- oklch(0.27 0 0) Subtle backgrounds
 
 	-- Text colors
 	text = "#cecece", -- oklch(0.85 0 0) Primary text
-	subtext0 = "#b8b8b8", -- oklch(0.78 0 0) Secondary text
+	subtext0 = "#bebebe", -- oklch(0.80 0 0) Secondary text
 	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
 	subtext2 = "#484848", -- oklch(0.40 0 0) Comments, borders, subtle elements
 
