@@ -18,16 +18,20 @@ local palette = {
 	subtext2 = "#484848", -- oklch(0.40 0 0) Comments, borders, subtle elements
 
 	-- Accent colors
-	red = "#ff6370", -- Errors, critical items
-	orange = "#ff9500", -- Warnings, numbers, constants
-	yellow = "#ffd43b", -- Attention, search highlights
-	green = "#42be65", -- Success, strings, added items
-	teal = "#08bdba", -- Special elements, regex, escape chars
-	sky = "#1aa7ff", -- Classes, types, bold markup
-	sapphire = "#33b1ff", -- Functions, methods, headings
-	blue = "#33b1ff", -- Variables, identifiers
-	purple = "#be95ff", -- Keywords, storage, changed items
-	pink = "#ee5396", -- Deprecated, special tags
+	red = "#ff5655", -- oklch(0.70 17 25) Errors, critical items
+	orange = "#f67400", -- oklch(0.70 17 55) Warnings, numbers, constants
+	yellow = "#be9b00", -- oklch(0.70 17 95) Attention, search highlights
+	green = "#00c300", -- oklch(0.70 17 145) Success, strings, added items
+	teal = "#00baaa", -- oklch(0.70 17 185) Special elements, regex, escape chars
+	sky = "#00b3d6", -- oklch(0.70 17 215) Classes, types, bold markup
+	blue = "#00a6ff", -- oklch(0.70 17 245) Variables, identifiers
+	purple = "#9588ff", -- oklch(0.70 17 285) Keywords, storage, changed items
+	pink = "#fb00ff", -- oklch(0.70 17 325) Deprecated, special tags
+
+	-- Diff colors
+	jade = "#001200", -- oklch(0.15 3 145) Very dark green background
+	amber = "#1c0300", -- oklch(0.15 3 55) Very dark orange background
+	ice = "#000b26", -- oklch(0.15 3 245) Very dark blue background
 
 	-- Special
 	none = "NONE",

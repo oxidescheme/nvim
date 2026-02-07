@@ -85,7 +85,7 @@ function M.setup(colors, config)
 		["@markup.italic"] = { italic = true },
 		["@markup.underline"] = { underline = true },
 		["@markup.strikethrough"] = { strikethrough = true },
-		["@markup.heading"] = { fg = c.sapphire, bold = true },
+		["@markup.heading"] = { fg = c.blue, bold = true },
 		["@markup.link"] = { fg = c.sky },
 		["@markup.link.url"] = { fg = c.teal, underline = true },
 		["@markup.list"] = { fg = c.purple },

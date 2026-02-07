@@ -32,6 +32,7 @@ function M.setup(colors, config)
 		Search = { bg = c.blue, fg = c.base },
 		IncSearch = { bg = c.orange, fg = c.base },
 		CurSearch = { bg = c.orange, fg = c.base },
+		Substitute = { bg = c.red, fg = c.base },
 
 		-- Visual selection
 		Visual = { bg = c.surface1 },
@@ -39,7 +40,7 @@ function M.setup(colors, config)
 
 		-- Messages and command line
 		ModeMsg = { fg = c.text },
-		MoreMsg = { fg = c.sapphire },
+		MoreMsg = { fg = c.blue },
 		ErrorMsg = { fg = c.red },
 		WarningMsg = { fg = c.orange },
 
@@ -63,20 +64,20 @@ function M.setup(colors, config)
 		WinSeparator = { fg = c.subtext2 },
 		VertSplit = { fg = c.subtext2 }, -- Legacy
 
-		-- Diff highlighting (simple direct colors)
-		DiffAdd = { bg = c.green, fg = c.base },
-		DiffDelete = { bg = c.red, fg = c.base },
-		DiffChange = { bg = c.blue, fg = c.base },
-		DiffText = { bg = c.sapphire, fg = c.base },
+		-- Diff highlighting
+		DiffAdd = { bg = c.jade, fg = c.base },
+		DiffDelete = { bg = c.amber, fg = c.base },
+		DiffChange = { bg = c.saffire, fg = c.base },
+		DiffText = { bg = c.saffire, fg = c.base },
 
 		-- Spell checking
 		SpellBad = { sp = c.red, undercurl = true },
 		SpellCap = { sp = c.orange, undercurl = true },
-		SpellLocal = { sp = c.sapphire, undercurl = true },
+		SpellLocal = { sp = c.blue, undercurl = true },
 		SpellRare = { sp = c.teal, undercurl = true },
 
 		-- Misc
-		Directory = { fg = c.sapphire },
+		Directory = { fg = c.blue },
 		Title = { fg = c.text, bold = true },
 		Bold = { bold = true },
 		Italic = { italic = true },
