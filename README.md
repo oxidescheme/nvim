@@ -30,19 +30,18 @@ Where function meets form.
 
 <p>
 <b>oxide.nvim</b> brings the oxide colorscheme to Neovim with full TreeSitter and LSP support.
-A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and soft pastel accents to emphasize structure without visual noise.
+A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
 </p>
 
 ## Design Philosophy
 
 oxide is built on three core principles:
 
-- **Semantic Color**: Every hue has meaning—red for functions, blue for properties, white for variables
-- **Cognitive Clarity**: Reduce mental overhead through consistent, predictable visual patterns
-- **Aesthetic Restraint**: Beautiful doesn't mean busy; elegance lies in what's left out
+- **Function first**: Every color exists to convey information
+- **Visual silence**: Elegance emerges from what is intentionally omitted
+- **Systematic harmony**: Every color relates predictably to the others
 
-The full design philosophy, color psychology research, and development methodology are documented
-in the [main oxide repository](https://github.com/oxidescheme/oxide).
+The full design philosophy and color system are documented in the [main oxide repository](https://github.com/oxidescheme/oxide).
 
 ## Features
 
@@ -181,12 +180,14 @@ We follow the same philosophy as the main oxide project: minimalism doesn't mean
 
 ## Credits
 
-**Port Developer:** [@jakubmazur](https://github.com/jakmaz)
-**Current Maintainer:** [@jakubmazur](https://github.com/jakmaz)
-**Contributors:** See [contributors list](https://github.com/oxidescheme/oxide.nvim/graphs/contributors)
-
-**Original oxide colorscheme:** [@originalcreator](https://github.com/oxidescheme)
+- **Port Creator:** [@jakmaz](https://github.com/jakmaz)
+- **Current Maintainer:** [@jakmaz](https://github.com/jakmaz)
+- **Contributors:** See [contributors list](https://github.com/oxidescheme/oxide.nvim/graphs/contributors)
 
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+<p align="center">
+Copyright &copy; 2025-present oxidescheme
+</p>
