@@ -10,9 +10,7 @@ Where function meets form.
 
 <p align="center">
   <a href="https://github.com/oxidescheme/oxide.nvim/stargazers"><img src="https://img.shields.io/github/stars/oxidescheme/oxide.nvim?colorA=161616&colorB=00a6ff&style=for-the-badge"></a>
-  <!-- <a href="https://github.com/oxidescheme/oxide.nvim/releases/latest"><img src="https://img.shields.io/github/v/release/oxidescheme/oxide.nvim?colorA=161616&colorB=00c300&style=for-the-badge"></a> -->
   <a href="https://github.com/oxidescheme/oxide.nvim/issues"><img src="https://img.shields.io/github/issues/oxidescheme/oxide.nvim?colorA=161616&colorB=ff5655&style=for-the-badge"></a>
-  <a href="https://www.lua.org/"><img src="https://img.shields.io/badge/Made%20with%20Lua-9588ff?style=for-the-badge&logo=lua&logoColor=white"></a>
   <a href="https://discord.gg/p8GcbBH5MR"><img src="https://img.shields.io/discord/1450777325267456097?style=for-the-badge&color=00baaa&labelColor=161616&logo=discord&logoColor=white"></a>
 </p>
 
