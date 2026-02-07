@@ -109,7 +109,7 @@ oxide.nvim comes with sensible defaults, but every aspect can be customized:
 require("oxide").setup({
   transparent = false, -- Enable transparent background
   terminal_colors = true, -- Configure terminal colors
-  
+
   styles = {
     comments = { italic = true },
     keywords = { bold = true },
@@ -119,12 +119,12 @@ require("oxide").setup({
     booleans = {},
     numbers = {},
   },
-  
+
   -- Override colors
   on_colors = function(colors)
     colors.red = "#ff0000" -- Make red more intense
   end,
-  
+
   -- Override highlight groups
   on_highlights = function(highlights, colors)
     highlights.Comment = { fg = colors.green, italic = true }
@@ -163,11 +163,12 @@ require("oxide").setup({
 
 oxide.nvim works seamlessly with popular plugins:
 
-- **[lualine](https://github.com/nvim-lualine/lualine.nvim)**: Built-in monochromatic oxide theme
-- **[nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**: Properly styled file explorer
-- **[telescope](https://github.com/nvim-telescope/telescope.nvim)**: Clean search interface
-- **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**: Clear git indicators
-- **[snacks](https://github.com/folke/snacks.nvim)**: Clean and minimal components
+- **[lualine](https://github.com/nvim-lualine/lualine.nvim)**
+- **[nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**
+- **[telescope](https://github.com/nvim-telescope/telescope.nvim)**
+- **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**
+- **[snacks](https://github.com/folke/snacks.nvim)**
+- **[flash](https://github.com/folke/flash.nvim)**
 
 ## Contributing
 
