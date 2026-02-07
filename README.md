@@ -23,11 +23,11 @@ Where function meets form.
 </p>
 
 <p align="center">
-  <img src="assets/rust.png" alt="oxide.nvim rust syntax highlighting showcase">
+  <img src="assets/go.png" alt="oxide.nvim go syntax highlighting showcase">
 </p>
 
 <p align="center">
-  <img src="assets/lazygit.png" alt="oxide.nvim lazygit showcase">
+  <img src="assets/diagnostics.png" alt="oxide.nvim diagnostics showcase">
 </p>
 
 **oxide.nvim** brings the oxide colorscheme to [neovim](https://neovim.io) with full [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [lsp](https://neovim.io/doc/user/lsp.html) support.
