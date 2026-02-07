@@ -12,6 +12,7 @@ local palette = {
 	surface1 = "#262626", -- oklch(0.27 0 0) Subtle backgrounds
 
 	-- Text colors
+	bright_text = "#dedede", -- oklch(0.90 0 0) Bright text
 	text = "#cecece", -- oklch(0.85 0 0) Primary text
 	subtext0 = "#bebebe", -- oklch(0.80 0 0) Secondary text
 	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
@@ -27,6 +28,17 @@ local palette = {
 	blue = "#00a6ff", -- oklch(0.70 17 245) Variables, identifiers
 	purple = "#9588ff", -- oklch(0.70 17 285) Keywords, storage, changed items
 	pink = "#fb00ff", -- oklch(0.70 17 325) Deprecated, special tags
+
+	-- Accent colors (lighter, used for ANSI colors)
+	bright_red = "#ff7b74", -- oklch(0.75 17 25) Errors, critical items
+	bright_orange = "#ff8300", -- oklch(0.75 17 55) Warnings, numbers, constants
+	bright_yellow = "#d0ab00", -- oklch(0.75 17 95) Attention, search highlights
+	bright_green = "#00d600", -- oklch(0.75 17 145) Success, strings, added items
+	bright_teal = "#00ccba", -- oklch(0.75 17 185) Special elements, regex, escape chars
+	bright_sky = "#00c5ea", -- oklch(0.75 17 215) Classes, types, bold markup
+	bright_blue = "#40b6ff", -- oklch(0.75 17 245) Variables, identifiers
+	bright_purple = "#a59dff", -- oklch(0.75 17 285) Keywords, storage, changed items
+	bright_pink = "#ff56ff", -- oklch(0.75 17 325) Deprecated, special tags
 
 	-- Diff colors
 	jade = "#001200", -- oklch(0.15 3 145) Very dark green background

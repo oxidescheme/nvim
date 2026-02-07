@@ -30,11 +30,38 @@ function M.load(opts)
 
 	-- Apply all highlights
 	util.apply_highlights(highlight_groups)
+
+	-- Set terminal colors
+	M.set_terminal_colors(color_scheme.colors)
 end
 
 -- Convenience function to load with current config
 function M.colorscheme()
 	M.load()
+end
+
+-- Set terminal colors using the color palette
+---@param c table
+function M.set_terminal_colors(c)
+	-- Terminal colors (ANSI 0-15)
+	vim.g.terminal_color_0 = c.surface1 -- Black (dark)
+	vim.g.terminal_color_1 = c.red -- Red (normal)
+	vim.g.terminal_color_2 = c.green -- Green (normal)
+	vim.g.terminal_color_3 = c.yellow -- Yellow (normal)
+	vim.g.terminal_color_4 = c.blue -- Blue (normal)
+	vim.g.terminal_color_5 = c.purple -- Magenta (normal)
+	vim.g.terminal_color_6 = c.teal -- Cyan (normal)
+	vim.g.terminal_color_7 = c.text -- White (normal)
+
+	-- Bright colors (ANSI 8-15)
+	vim.g.terminal_color_8 = c.subtext1 -- Black (bright)
+	vim.g.terminal_color_9 = c.bright_red -- Red (bright)
+	vim.g.terminal_color_10 = c.bright_green -- Green (bright)
+	vim.g.terminal_color_11 = c.bright_yellow -- Yellow (bright)
+	vim.g.terminal_color_12 = c.bright_blue -- Blue (bright)
+	vim.g.terminal_color_13 = c.bright_purple -- Magenta (bright)
+	vim.g.terminal_color_14 = c.bright_teal -- Cyan (bright)
+	vim.g.terminal_color_15 = c.bright_text -- White (bright)
 end
 
 return M

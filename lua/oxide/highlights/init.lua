@@ -84,4 +84,3 @@ function M.setup(colors, config)
 end
 
 return M
-
