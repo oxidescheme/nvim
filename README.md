@@ -23,13 +23,15 @@ Where function meets form.
 </p>
 
 <p align="center">
-  <img src="assets/syntax.png" alt="oxide.nvim syntax highlighting">
+  <img src="assets/rust.png" alt="oxide.nvim rust syntax highlighting showcase">
 </p>
 
-<p>
-<b>oxide.nvim</b> brings the oxide colorscheme to Neovim with full TreeSitter and LSP support.
-A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
+<p align="center">
+  <img src="assets/lazygit.png" alt="oxide.nvim lazygit showcase">
 </p>
+
+**oxide.nvim** brings the oxide colorscheme to [neovim](https://neovim.io) with full [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [lsp](https://neovim.io/doc/user/lsp.html) support.
+A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
 
 ## Design Philosophy
 
