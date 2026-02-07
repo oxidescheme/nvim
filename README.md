@@ -15,7 +15,7 @@ Where function meets form.
 </p>
 
 <p align="center">
-  <img src="assets/dashboard.webp" alt="oxide.nvim dashboard showcase">
+  <img src="assets/dashboard.png" alt="oxide.nvim dashboard showcase">
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Where function meets form.
 </p>
 
 <p align="center">
-  <img src="assets/go.png" alt="oxide.nvim go syntax highlighting showcase">
+  <img src="assets/completion.png" alt="oxide.nvim completion showcase">
 </p>
 
 <p align="center">
