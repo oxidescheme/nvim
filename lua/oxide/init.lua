@@ -31,8 +31,10 @@ function M.load(opts)
 	-- Apply all highlights
 	util.apply_highlights(highlight_groups)
 
-	-- Set terminal colors
-	M.set_terminal_colors(color_scheme.colors)
+	-- Set terminal colors (if enabled)
+	if color_scheme.config.terminal_colors then
+		M.set_terminal_colors(color_scheme.colors)
+	end
 end
 
 -- Convenience function to load with current config
