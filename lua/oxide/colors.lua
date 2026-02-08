@@ -6,7 +6,7 @@ local M = {}
 ---@class Palette
 local palette = {
 	-- Surface colors
-	mantle = "#0b0b0b", -- oklch(0.15 0 0) Mantle
+	mantle = "#121212", -- oklch(0.18 0 0) Mantle
 	base = "#161616", -- oklch(0.20 0 0) Main background
 	surface0 = "#222222", -- oklch(0.25 0 0) Cursor background
 	surface1 = "#262626", -- oklch(0.27 0 0) Subtle backgrounds
