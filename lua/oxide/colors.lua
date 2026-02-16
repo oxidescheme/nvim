@@ -19,26 +19,26 @@ local palette = {
 	subtext2 = "#484848", -- oklch(0.40 0 0) Comments, borders, subtle elements
 
 	-- Accent colors
-	red = "#ff5655", -- oklch(0.70 17 25) Errors, critical items
-	orange = "#f67400", -- oklch(0.70 17 55) Warnings, numbers, constants
-	yellow = "#be9b00", -- oklch(0.70 17 95) Attention, search highlights
-	green = "#00c300", -- oklch(0.70 17 145) Success, strings, added items
-	teal = "#00baaa", -- oklch(0.70 17 185) Special elements, regex, escape chars
-	sky = "#00b3d6", -- oklch(0.70 17 215) Classes, types, bold markup
-	blue = "#00a6ff", -- oklch(0.70 17 245) Variables, identifiers
-	purple = "#9588ff", -- oklch(0.70 17 285) Keywords, storage, changed items
-	pink = "#fb00ff", -- oklch(0.70 17 325) Deprecated, special tags
+	red = "#ed756e", -- oklch(0.70 15 25) Errors, critical items
+	orange = "#e48233", -- oklch(0.70 15 55) Warnings, numbers, constants
+	yellow = "#c39900", -- oklch(0.70 15 90) Attention, search highlights
+	green = "#5bb661", -- oklch(0.70 15 145) Success, strings, added items
+	teal = "#00baaa", -- oklch(0.70 15 185) Special elements, regex, escape chars
+	sky = "#00b3d6", -- oklch(0.70 15 215) Classes, types, bold markup
+	blue = "#3ba6f5", -- oklch(0.70 15 245) Variables, identifiers
+	purple = "#968ff7", -- oklch(0.70 15 285) Keywords, storage, changed items
+	pink = "#cc7bd1", -- oklch(0.70 15 325) Deprecated, special tags
 
 	-- Accent colors (lighter, used for ANSI colors)
-	bright_red = "#ff7b74", -- oklch(0.75 17 25) Errors, critical items
-	bright_orange = "#ff8300", -- oklch(0.75 17 55) Warnings, numbers, constants
-	bright_yellow = "#d0ab00", -- oklch(0.75 17 95) Attention, search highlights
-	bright_green = "#00d600", -- oklch(0.75 17 145) Success, strings, added items
-	bright_teal = "#00ccba", -- oklch(0.75 17 185) Special elements, regex, escape chars
-	bright_sky = "#00c5ea", -- oklch(0.75 17 215) Classes, types, bold markup
-	bright_blue = "#40b6ff", -- oklch(0.75 17 245) Variables, identifiers
-	bright_purple = "#a59dff", -- oklch(0.75 17 285) Keywords, storage, changed items
-	bright_pink = "#ff56ff", -- oklch(0.75 17 325) Deprecated, special tags
+	bright_red = "#ff9890", -- oklch(0.80 15 25) Errors, critical items
+	bright_orange = "#ffa156", -- oklch(0.80 15 55) Warnings, numbers, constants
+	bright_yellow = "#e3b831", -- oklch(0.80 15 90) Attention, search highlights
+	bright_green = "#7bd77f", -- oklch(0.80 15 145) Success, strings, added items
+	bright_teal = "#00dcca", -- oklch(0.80 15 185) Special elements, regex, escape chars
+	bright_sky = "#00d5f9", -- oklch(0.80 15 215) Classes, types, bold markup
+	bright_blue = "#6fc6ff", -- oklch(0.80 15 245) Variables, identifiers
+	bright_purple = "#b5b2ff", -- oklch(0.80 15 285) Keywords, storage, changed items
+	bright_pink = "#dd8be2", -- oklch(0.80 15 325) Deprecated, special tags
 
 	-- Diff colors
 	jade = "#001200", -- oklch(0.15 3 145) Very dark green background
