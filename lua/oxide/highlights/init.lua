@@ -39,9 +39,6 @@ local function load_all_integrations(colors, config)
 	return integrations
 end
 
----@param colors table
----@param config table
----@return table
 function M.setup(colors, config)
 	local highlights = {}
 

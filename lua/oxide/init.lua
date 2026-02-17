@@ -5,12 +5,10 @@ local util = require("oxide.util")
 
 local M = {}
 
----@param opts? table
 function M.setup(opts)
 	config.setup(opts)
 end
 
----@param opts? table
 function M.load(opts)
 	-- Clear existing highlights
 	if vim.g.colors_name then
@@ -43,7 +41,6 @@ function M.colorscheme()
 end
 
 -- Set terminal colors using the color palette
----@param c table
 function M.set_terminal_colors(c)
 	-- Terminal colors (ANSI 0-15)
 	vim.g.terminal_color_0 = c.surface1 -- Black (dark)

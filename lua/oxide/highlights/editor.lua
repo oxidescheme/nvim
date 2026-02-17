@@ -1,9 +1,6 @@
 -- Core editor highlight groups - Direct semantic colors only
 local M = {}
 
----@param colors table
----@param config table
----@return table
 function M.setup(colors, config)
 	local c = colors.colors -- Direct semantic colors
 	local styles = config.styles or {}

@@ -3,7 +3,6 @@ local config = require("oxide.config")
 local M = {}
 
 -- Oxide color palette
----@class Palette
 local palette = {
 	-- Surface colors
 	mantle = "#121212", -- oklch(0.18 0 0) Mantle
@@ -49,8 +48,6 @@ local palette = {
 	none = "NONE",
 }
 
----@param opts? table
----@return table
 function M.setup(opts)
 	opts = config.extend(opts)
 
