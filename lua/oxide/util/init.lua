@@ -33,11 +33,6 @@ function M.rgb_to_hex(r, g, b)
 	return string.format("#%02x%02x%02x", r, g, b)
 end
 
--- Check if plugin is loaded
-function M.has_plugin(plugin)
-	return pcall(require, plugin)
-end
-
 -- Apply highlight group
 function M.highlight(group, opts)
 	if not opts then

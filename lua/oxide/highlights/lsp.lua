@@ -2,8 +2,9 @@
 local M = {}
 
 ---@param colors table
+---@param config table
 ---@return table
-function M.setup(colors)
+function M.setup(colors, config)
 	local c = colors.colors
 
 	local highlights = {

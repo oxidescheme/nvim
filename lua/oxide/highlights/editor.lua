@@ -67,8 +67,8 @@ function M.setup(colors, config)
 		-- Diff highlighting
 		DiffAdd = { bg = c.jade, fg = c.base },
 		DiffDelete = { bg = c.amber, fg = c.base },
-		DiffChange = { bg = c.saffire, fg = c.base },
-		DiffText = { bg = c.saffire, fg = c.base },
+		DiffChange = { bg = c.ice, fg = c.base },
+		DiffText = { bg = c.text, fg = c.base },
 
 		-- Spell checking
 		SpellBad = { sp = c.red, undercurl = true },
