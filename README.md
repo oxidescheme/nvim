@@ -9,28 +9,28 @@ Where function meets form.
 </h6>
 
 <p align="center">
-  <a href="https://github.com/oxidescheme/oxide.nvim/stargazers"><img src="https://img.shields.io/github/stars/oxidescheme/oxide.nvim?colorA=161616&colorB=00a6ff&style=for-the-badge"></a>
-  <a href="https://github.com/oxidescheme/oxide.nvim/issues"><img src="https://img.shields.io/github/issues/oxidescheme/oxide.nvim?colorA=161616&colorB=ff5655&style=for-the-badge"></a>
+  <a href="https://github.com/oxidescheme/nvim/stargazers"><img src="https://img.shields.io/github/stars/oxidescheme/nvim?colorA=161616&colorB=00a6ff&style=for-the-badge"></a>
+  <a href="https://github.com/oxidescheme/nvim/issues"><img src="https://img.shields.io/github/issues/oxidescheme/nvim?colorA=161616&colorB=ff5655&style=for-the-badge"></a>
   <a href="https://discord.gg/p8GcbBH5MR"><img src="https://img.shields.io/discord/1450777325267456097?style=for-the-badge&color=00baaa&labelColor=161616&logo=discord&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img src="assets/dashboard.png" alt="oxide.nvim dashboard showcase">
+  <img src="assets/dashboard.png" alt="oxide nvim dashboard showcase">
 </p>
 
 <p align="center">
-  <img src="assets/picker.png" alt="oxide.nvim picker showcase">
+  <img src="assets/picker.png" alt="oxide nvim picker showcase">
 </p>
 
 <p align="center">
-  <img src="assets/completion.png" alt="oxide.nvim completion showcase">
+  <img src="assets/completion.png" alt="oxide nvim completion showcase">
 </p>
 
 <p align="center">
-  <img src="assets/diagnostics.png" alt="oxide.nvim diagnostics showcase">
+  <img src="assets/diagnostics.png" alt="oxide nvim diagnostics showcase">
 </p>
 
-**oxide.nvim** brings the oxide colorscheme to [neovim](https://neovim.io) with full [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [lsp](https://neovim.io/doc/user/lsp.html) support.
+**oxide** brings the oxide colorscheme to [neovim](https://neovim.io) with full [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [lsp](https://neovim.io/doc/user/lsp.html) support.
 A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
 
 ## Design Philosophy
@@ -58,7 +58,7 @@ The full design philosophy and color system are documented in the [main oxide re
 
 ```lua
 {
-  "oxidescheme/oxide.nvim",
+  "oxidescheme/nvim",
   lazy = false,
   priority = 1000,
   config = function()
@@ -72,7 +72,7 @@ The full design philosophy and color system are documented in the [main oxide re
 
 ```lua
 use {
-  "oxidescheme/oxide.nvim",
+  "oxidescheme/nvim",
   config = function()
     require("oxide").setup()
     vim.cmd.colorscheme("oxide")
@@ -83,7 +83,7 @@ use {
 ### [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'oxidescheme/oxide.nvim'
+Plug 'oxidescheme/nvim'
 ```
 
 ```lua
@@ -103,7 +103,7 @@ require("oxide").load()
 
 ## Configuration
 
-oxide.nvim comes with sensible defaults, but every aspect can be customized:
+oxide comes with sensible defaults, but every aspect can be customized:
 
 ```lua
 require("oxide").setup({
@@ -161,7 +161,7 @@ require("oxide").setup({
 
 ### Integration with Other Plugins
 
-oxide.nvim works seamlessly with popular plugins:
+oxide works seamlessly with popular plugins:
 
 - **[lualine](https://github.com/nvim-lualine/lualine.nvim)**
 - **[nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**
@@ -174,7 +174,7 @@ oxide.nvim works seamlessly with popular plugins:
 
 We follow the same philosophy as the main oxide project: minimalism doesn't mean stagnation.
 
-- Report bugs and request features through [GitHub Issues](https://github.com/oxidescheme/oxide.nvim/issues)
+- Report bugs and request features through [GitHub Issues](https://github.com/oxidescheme/oxide/issues)
 - PRs that improve clarity and consistency are especially welcome
 - Ensure new highlight groups serve a clear functional purpose
 
@@ -182,7 +182,7 @@ We follow the same philosophy as the main oxide project: minimalism doesn't mean
 
 - **Port Creator:** [@jakmaz](https://github.com/jakmaz)
 - **Current Maintainer:** [@jakmaz](https://github.com/jakmaz)
-- **Contributors:** See [contributors list](https://github.com/oxidescheme/oxide.nvim/graphs/contributors)
+- **Contributors:** See [contributors list](https://github.com/oxidescheme/oxide/graphs/contributors)
 
 ## License
 
