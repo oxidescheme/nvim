@@ -13,6 +13,7 @@ function M.setup(colors, config)
 		SnacksDashboardFooter = { fg = c.subtext1 },
 		SnacksDashboardKey = { fg = c.text, { bold = true } },
 		SnacksBackdrop = { bg = "NONE" },
+		SnacksPickerMatch = { fg = c.blue },
 	}
 end
 

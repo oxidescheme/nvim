@@ -86,8 +86,8 @@ function M.setup(colors, config)
 		["@markup.underline"] = { underline = true },
 		["@markup.strikethrough"] = { strikethrough = true },
 		["@markup.heading"] = { fg = c.blue, bold = true },
-		["@markup.link"] = { fg = c.sky },
-		["@markup.link.url"] = { fg = c.teal, underline = true },
+		["@markup.link"] = { fg = c.text },
+		["@markup.link.url"] = { fg = c.sky, underline = true },
 		["@markup.list"] = { fg = c.purple },
 
 		-- Errors
