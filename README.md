@@ -54,6 +54,19 @@ The full design philosophy and color system are documented in the [main oxide re
 
 ## Installation
 
+### [vim.pack](https://neovim.io/doc/user/pack) (Neovim 0.12+)
+
+```lua
+vim.pack.add({
+  {
+    src = 'https://github.com/oxidescheme/nvim',
+    name = 'oxide',
+  },
+})
+
+vim.cmd.colorscheme("oxide")
+```
+
 ### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ```lua
