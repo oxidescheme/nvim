@@ -8,14 +8,14 @@ local palette = {
 	mantle = "#121212", -- oklch(0.18 0 0) Mantle
 	base = "#161616", -- oklch(0.20 0 0) Main background
 	surface0 = "#222222", -- oklch(0.25 0 0) Cursor background
-	surface1 = "#262626", -- oklch(0.27 0 0) Subtle backgrounds
+	surface1 = "#262626", -- oklch(0.27 0 0) Visual, subtle backgrounds
 
 	-- Text colors
 	bright_text = "#dedede", -- oklch(0.90 0 0) Bright text
 	text = "#cecece", -- oklch(0.85 0 0) Primary text
 	subtext0 = "#bebebe", -- oklch(0.80 0 0) Secondary text
 	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
-	subtext2 = "#484848", -- oklch(0.40 0 0) Comments, borders, subtle elements
+	subtext2 = "#555555", -- oklch(0.45 0 0) Comments, borders, subtle elements
 
 	-- Accent colors
 	red = "#ed756e", -- oklch(0.70 15 25) Errors, critical items
