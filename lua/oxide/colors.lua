@@ -40,9 +40,9 @@ local palette = {
 	bright_pink = "#dd8be2", -- oklch(0.80 15 325) Deprecated, special tags
 
 	-- Diff colors
-	jade = "#001200", -- oklch(0.15 3 145) Very dark green background
-	amber = "#1c0300", -- oklch(0.15 3 55) Very dark orange background
-	ice = "#000b26", -- oklch(0.15 3 245) Very dark blue background
+	amber = "#452b28", -- oklch(0.32 0.04 25) Very dark red background
+	jade = "#263826", -- oklch(0.32 0.04 145) Very dark green background
+	ice = "#213546", -- oklch(0.32 0.04 245) Very dark blue background
 
 	-- Special
 	none = "NONE",
