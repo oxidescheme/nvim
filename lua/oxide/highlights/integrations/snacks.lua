@@ -1,7 +1,7 @@
 -- Snacks.nvim integration highlights
 local M = {}
 
-function M.setup(colors, config)
+function M.setup(colors)
 	local c = colors.colors
 
 	return {
@@ -11,6 +11,8 @@ function M.setup(colors, config)
 		SnacksDashboardKey = { fg = c.text, { bold = true } },
 		SnacksBackdrop = { bg = "NONE" },
 		SnacksPickerMatch = { fg = c.blue },
+		SnacksInputBorder = { link = "FloatBorder" },
+		SnacksInputTitle = { link = "Normal" },
 	}
 end
 
