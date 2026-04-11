@@ -72,6 +72,7 @@ vim.cmd.colorscheme("oxide")
 ```lua
 {
   "oxidescheme/nvim",
+  name = "oxide",
   lazy = false,
   priority = 1000,
   config = function()
@@ -86,6 +87,7 @@ vim.cmd.colorscheme("oxide")
 ```lua
 use {
   "oxidescheme/nvim",
+  name = "oxide",
   config = function()
     require("oxide").setup()
     vim.cmd.colorscheme("oxide")
