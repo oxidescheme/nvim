@@ -31,26 +31,13 @@ Where function meets form.
 </p>
 
 **oxide** brings the oxide colorscheme to [neovim](https://neovim.io) with full [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) and [lsp](https://neovim.io/doc/user/lsp.html) support.
-A minimalist dark theme built around clarity and restraint, using a deep near-black background, crisp white foregrounds, and vibrant accent colors to emphasize structure without visual noise.
-
-## Design Philosophy
-
-oxide is built on three core principles:
-
-- **Function first**: Every color exists to convey information
-- **Visual silence**: Elegance emerges from what is intentionally omitted
-- **Systematic harmony**: Every color relates predictably to the others
-
-The full design philosophy and color system are documented in the [main oxide repository](https://github.com/oxidescheme/oxide).
 
 ## Features
 
-- **Dark theme focused**: A carefully crafted monochromatic dark theme
-- **TreeSitter ready**: Full support for modern syntax highlighting  
-- **LSP integrated**: Semantic highlighting that respects language servers
-- **Customizable**: Override colors and highlights to match your workflow
-- **Performance focused**: Lazy-loaded with minimal startup impact
-- **Plugin support**: Built-in lualine theme and growing plugin integration
+- Dark theme with Treesitter and LSP semantic highlighting
+- Customizable colors and highlight groups
+- Lazy-loaded with minimal startup impact
+- Built-in lualine theme and growing plugin integration
 
 ## Installation
 
@@ -157,8 +144,6 @@ require("oxide").setup({
 | `on_colors` | `nil` | Function to override color palette |
 | `on_highlights` | `nil` | Function to override highlight groups |
 
-## Advanced Usage
-
 ### Custom Styles
 
 ```lua
@@ -187,11 +172,7 @@ oxide works seamlessly with popular plugins:
 
 ## Contributing
 
-We follow the same philosophy as the main oxide project: minimalism doesn't mean stagnation.
-
-- Report bugs and request features through [GitHub Issues](https://github.com/oxidescheme/oxide/issues)
-- PRs that improve clarity and consistency are especially welcome
-- Ensure new highlight groups serve a clear functional purpose
+PRs welcome. Make sure new highlight groups serve a clear purpose and colors match the palette in the [main repo](https://github.com/oxidescheme/oxide).
 
 ## Credits
 
