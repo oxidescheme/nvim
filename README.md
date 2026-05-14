@@ -173,7 +173,7 @@ oxide works seamlessly with popular plugins:
 
 ## Contributing
 
-PRs welcome. Make sure new highlight groups serve a clear purpose and colors match the palette in the [main repo](https://github.com/oxidescheme/oxide).
+PRs welcome. Make sure new highlight groups serve a clear purpose and colors match the palette defined in the codebase.
 
 ## Credits
 
