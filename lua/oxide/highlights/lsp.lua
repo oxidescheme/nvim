@@ -46,9 +46,9 @@ function M.setup(colors, config)
 		DiagnosticVirtualTextHint = { fg = c.text, bg = "NONE" },
 
 		-- LSP references
-		LspReferenceText = { bg = c.surface1 },
-		LspReferenceRead = { bg = c.surface1 },
-		LspReferenceWrite = { bg = c.surface1 },
+		LspReferenceText = { bg = c.surface0 },
+		LspReferenceRead = { bg = c.surface0 },
+		LspReferenceWrite = { bg = c.surface0 },
 
 		-- LSP signature help
 		LspSignatureActiveParameter = { fg = c.orange, bold = true },

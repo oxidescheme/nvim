@@ -23,7 +23,7 @@ function M.setup(colors, config)
 		FoldColumn = { fg = c.subtext2, bg = c.base },
 
 		-- Folding
-		Folded = { fg = c.subtext0, bg = c.surface1 },
+		Folded = { fg = c.subtext0, bg = c.surface0 },
 
 		-- Search (direct semantic colors)
 		Search = { bg = c.blue, fg = c.base },
@@ -32,8 +32,8 @@ function M.setup(colors, config)
 		Substitute = { bg = c.red, fg = c.base },
 
 		-- Visual selection
-		Visual = { bg = c.surface1 },
-		VisualNOS = { bg = c.surface1 },
+		Visual = { bg = c.surface0 },
+		VisualNOS = { bg = c.surface0 },
 
 		-- Messages and command line
 		ModeMsg = { fg = c.text },
@@ -57,7 +57,7 @@ function M.setup(colors, config)
 		PmenuThumb = { bg = c.subtext2 },
 
 		-- Borders
-		FloatBorder = { fg = c.subtext2, bg = config.transparent and "NONE" or c.base },
+		FloatBorder = { fg = c.surface2, bg = config.transparent and "NONE" or c.base },
 		WinSeparator = { fg = c.subtext2 },
 		VertSplit = { fg = c.subtext2 }, -- Legacy
 
@@ -84,11 +84,11 @@ function M.setup(colors, config)
 		Terminal = { fg = c.text, bg = c.base },
 
 		-- Others
-		NonText = { fg = c.subtext2 },
+		NonText = { fg = c.surface2 },
 		EndOfBuffer = { fg = c.base },
-		Conceal = { fg = c.subtext1 },
+		Conceal = { fg = c.subtext2 },
 		SpecialKey = { fg = c.subtext1 },
-		Whitespace = { fg = c.subtext2 },
+		Whitespace = { fg = c.surface0 },
 		WildMenu = { fg = c.text, bg = c.surface1 },
 		MatchParen = { fg = c.text, bg = c.subtext2, underline = true },
 	}

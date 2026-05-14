@@ -22,7 +22,7 @@ local theme = {
 		c = { bg = bg_color(colors.base), fg = colors.text },
 	},
 	visual = {
-		a = { bg = colors.surface1, fg = colors.text, gui = "bold" },
+		a = { bg = colors.surface0, fg = colors.text, gui = "bold" },
 		b = { bg = bg_color(colors.base), fg = colors.text },
 		c = { bg = bg_color(colors.base), fg = colors.text },
 	},

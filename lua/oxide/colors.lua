@@ -7,15 +7,16 @@ local palette = {
 	-- Surface colors
 	mantle = "#121212", -- oklch(0.18 0 0) Mantle
 	base = "#161616", -- oklch(0.20 0 0) Main background
-	surface0 = "#222222", -- oklch(0.25 0 0) Cursor background
-	surface1 = "#262626", -- oklch(0.27 0 0) Visual, subtle backgrounds
+	surface0 = "#222222", -- oklch(0.25 0 0) Subtle backgrounds, cursor, visual
+	surface1 = "#2e2e2e", -- oklch(0.30 0 0) Active selections
+	surface2 = "#3a3a3a", -- oklch(0.35 0 0) Borders, lines
 
 	-- Text colors
 	bright_text = "#dedede", -- oklch(0.90 0 0) Bright text
 	text = "#cecece", -- oklch(0.85 0 0) Primary text
 	subtext0 = "#bebebe", -- oklch(0.80 0 0) Secondary text
 	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
-	subtext2 = "#555555", -- oklch(0.45 0 0) Comments, borders, subtle elements
+	subtext2 = "#555555", -- oklch(0.45 0 0) Comments
 
 	-- Accent colors
 	red = "#ed756e", -- oklch(0.70 15 25) Errors, critical items

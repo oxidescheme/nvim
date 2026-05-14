@@ -43,7 +43,7 @@ end
 -- Set terminal colors using the color palette
 function M.set_terminal_colors(c)
 	-- Terminal colors (ANSI 0-15)
-	vim.g.terminal_color_0 = c.surface1 -- Black (dark)
+	vim.g.terminal_color_0 = c.surface0 -- Black (dark)
 	vim.g.terminal_color_1 = c.red -- Red (normal)
 	vim.g.terminal_color_2 = c.green -- Green (normal)
 	vim.g.terminal_color_3 = c.yellow -- Yellow (normal)
