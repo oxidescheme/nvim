@@ -19,31 +19,31 @@ local palette = {
 	subtext2 = "#555555", -- oklch(0.45 0 0) Comments
 
 	-- Accent colors
-	red = "#ed756e", -- oklch(0.70 15 25) Errors, critical items
-	orange = "#e48233", -- oklch(0.70 15 55) Warnings, numbers, constants
-	yellow = "#c39900", -- oklch(0.70 15 90) Attention, search highlights
-	green = "#5bb661", -- oklch(0.70 15 145) Success, strings, added items
-	teal = "#00baaa", -- oklch(0.70 15 185) Special elements, regex, escape chars
-	sky = "#00b3d6", -- oklch(0.70 15 215) Classes, types, bold markup
-	blue = "#3ba6f5", -- oklch(0.70 15 245) Variables, identifiers
-	purple = "#968ff7", -- oklch(0.70 15 285) Keywords, storage, changed items
-	pink = "#cc7bd1", -- oklch(0.70 15 325) Deprecated, special tags
+	red = "#ed756e", -- oklch(0.70 15 25) Functions, errors, critical items
+	orange = "#e48233", -- oklch(0.70 15 55) Constants, numbers, warnings
+	yellow = "#c39900", -- oklch(0.70 15 90) Attention, todo
+	green = "#5bb661", -- oklch(0.70 15 145) Strings, success, added items
+	teal = "#00baaa", -- oklch(0.70 15 185) Preproc, regex, attributes
+	sky = "#00b3d6", -- oklch(0.70 15 215) Types, readonly, URLs
+	blue = "#3ba6f5", -- oklch(0.70 15 245) Properties, info, search, directories
+	purple = "#968ff7", -- oklch(0.70 15 285) Keywords, storage, static
+	pink = "#cc7bd1", -- oklch(0.70 15 325) Tags, special strings, deprecated
 
-	-- Accent colors (lighter, used for ANSI colors)
-	bright_red = "#ff9890", -- oklch(0.80 15 25) Errors, critical items
-	bright_orange = "#ffa156", -- oklch(0.80 15 55) Warnings, numbers, constants
-	bright_yellow = "#e3b831", -- oklch(0.80 15 90) Attention, search highlights
-	bright_green = "#7bd77f", -- oklch(0.80 15 145) Success, strings, added items
-	bright_teal = "#00dcca", -- oklch(0.80 15 185) Special elements, regex, escape chars
-	bright_sky = "#00d5f9", -- oklch(0.80 15 215) Classes, types, bold markup
-	bright_blue = "#6fc6ff", -- oklch(0.80 15 245) Variables, identifiers
-	bright_purple = "#b5b2ff", -- oklch(0.80 15 285) Keywords, storage, changed items
-	bright_pink = "#dd8be2", -- oklch(0.80 15 325) Deprecated, special tags
+	-- Accent colors (lighter, used for ANSI terminal colors)
+	bright_red = "#ff9890", -- oklch(0.80 15 25)
+	bright_orange = "#ffa156", -- oklch(0.80 15 55)
+	bright_yellow = "#e3b831", -- oklch(0.80 15 90)
+	bright_green = "#7bd77f", -- oklch(0.80 15 145)
+	bright_teal = "#00dcca", -- oklch(0.80 15 185)
+	bright_sky = "#00d5f9", -- oklch(0.80 15 215)
+	bright_blue = "#6fc6ff", -- oklch(0.80 15 245)
+	bright_purple = "#b5b2ff", -- oklch(0.80 15 285)
+	bright_pink = "#dd8be2", -- oklch(0.80 15 325)
 
-	-- Diff colors
-	amber = "#452b28", -- oklch(0.32 0.04 25) Very dark red background
-	jade = "#263826", -- oklch(0.32 0.04 145) Very dark green background
-	ice = "#213546", -- oklch(0.32 0.04 245) Very dark blue background
+	-- Diff backgrounds
+	diff_delete = "#452b28", -- oklch(0.32 0.04 25) Deleted lines
+	diff_add = "#263826", -- oklch(0.32 0.04 145) Added lines
+	diff_change = "#213546", -- oklch(0.32 0.04 245) Changed lines
 
 	-- Special
 	none = "NONE",

@@ -62,10 +62,10 @@ function M.setup(colors, config)
 		VertSplit = { fg = c.subtext2 }, -- Legacy
 
 		-- Diff highlighting
-		DiffAdd = { bg = c.jade, fg = c.base },
-		DiffDelete = { bg = c.amber, fg = c.base },
-		DiffChange = { bg = c.ice, fg = c.base },
-		DiffText = { bg = c.text, fg = c.base },
+		DiffAdd = { bg = c.diff_add, fg = c.text },
+		DiffDelete = { bg = c.diff_delete, fg = c.text },
+		DiffChange = { bg = c.diff_change, fg = c.text },
+		DiffText = { bg = c.text, fg = c.text },
 
 		-- Spell checking
 		SpellBad = { sp = c.red, undercurl = true },
