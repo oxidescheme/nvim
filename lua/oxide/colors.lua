@@ -12,10 +12,10 @@ local palette = {
 	surface2 = "#3a3a3a", -- oklch(0.35 0 0) Borders, lines
 
 	-- Text colors
-	bright_text = "#dedede", -- oklch(0.90 0 0) Bright text
+	bright_text = "#eeeeee", -- oklch(0.95 0 0) Bright text
 	text = "#cecece", -- oklch(0.85 0 0) Primary text
-	subtext0 = "#bebebe", -- oklch(0.80 0 0) Secondary text
-	subtext1 = "#8f8f8f", -- oklch(0.65 0 0) Muted text
+	subtext0 = "#aeaeae", -- oklch(0.75 0 0) Secondary text
+	subtext1 = "#808080", -- oklch(0.60 0 0) Muted text
 	subtext2 = "#555555", -- oklch(0.45 0 0) Comments
 
 	-- Accent colors
