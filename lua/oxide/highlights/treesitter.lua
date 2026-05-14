@@ -82,15 +82,26 @@ function M.setup(colors, config)
 		["@markup.italic"] = { italic = true },
 		["@markup.underline"] = { underline = true },
 		["@markup.strikethrough"] = { strikethrough = true },
+
 		["@markup.heading"] = { fg = c.blue, bold = true },
+		["@markup.heading.1"] = { fg = c.blue, bold = true },
 		["@markup.heading.2"] = { fg = c.sky, bold = true },
 		["@markup.heading.3"] = { fg = c.teal, bold = true },
 		["@markup.heading.4"] = { fg = c.green, bold = true },
 		["@markup.heading.5"] = { fg = c.lime, bold = true },
 		["@markup.heading.6"] = { fg = c.yellow, bold = true },
+
+		["@markup.raw"] = { fg = c.orange },
+		["@markup.raw.block"] = { fg = c.text },
+		["@markup.quote"] = { fg = c.subtext1, italic = true },
+
 		["@markup.link"] = { fg = c.text },
+		["@markup.link.label"] = { fg = c.blue },
 		["@markup.link.url"] = { fg = c.sky, underline = true },
+
 		["@markup.list"] = { fg = c.purple },
+		["@markup.list.checked"] = { fg = c.green },
+		["@markup.list.unchecked"] = { fg = c.subtext1 },
 
 		-- Errors
 		["@error"] = { link = "Error" },

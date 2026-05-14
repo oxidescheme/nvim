@@ -169,6 +169,7 @@ oxide works seamlessly with popular plugins:
 - **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**
 - **[snacks](https://github.com/folke/snacks.nvim)**
 - **[flash](https://github.com/folke/flash.nvim)**
+- **[render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)**
 
 ## Contributing
 
