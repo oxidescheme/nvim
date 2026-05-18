@@ -163,13 +163,14 @@ require("oxide").setup({
 
 oxide works seamlessly with popular plugins:
 
+- **[blink.cmp](https://github.com/saghen/blink.cmp)**
+- **[flash](https://github.com/folke/flash.nvim)**
+- **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**
 - **[lualine](https://github.com/nvim-lualine/lualine.nvim)**
 - **[nvim-tree](https://github.com/kyazdani42/nvim-tree.lua)**
-- **[telescope](https://github.com/nvim-telescope/telescope.nvim)**
-- **[gitsigns](https://github.com/lewis6991/gitsigns.nvim)**
-- **[snacks](https://github.com/folke/snacks.nvim)**
-- **[flash](https://github.com/folke/flash.nvim)**
 - **[render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim)**
+- **[snacks](https://github.com/folke/snacks.nvim)**
+- **[telescope](https://github.com/nvim-telescope/telescope.nvim)**
 
 ## Contributing
 
