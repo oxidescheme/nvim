@@ -42,13 +42,13 @@ function M.setup(colors, config)
 		WarningMsg = { fg = c.orange },
 
 		-- Status line
-		StatusLine = { fg = c.text, bg = c.base },
+		StatusLine = { fg = c.subtext0, bg = c.mantle },
 		StatusLineNC = { fg = c.subtext0, bg = c.base },
 
 		-- Tab line
-		TabLine = { fg = c.subtext0, bg = c.base },
+		TabLine = { fg = c.subtext0, bg = c.mantle },
 		TabLineFill = { bg = c.base },
-		TabLineSel = { fg = c.text, bg = c.base },
+		TabLineSel = { fg = c.bright_text, bg = c.surface0 },
 
 		-- Popup menu
 		Pmenu = { fg = c.text, bg = c.surface0 },
@@ -84,7 +84,7 @@ function M.setup(colors, config)
 		Terminal = { fg = c.text, bg = c.base },
 
 		-- Others
-		NonText = { fg = c.surface2 },
+		NonText = { fg = c.subtext2 },
 		EndOfBuffer = { fg = c.base },
 		Conceal = { fg = c.subtext2 },
 		SpecialKey = { fg = c.subtext1 },
