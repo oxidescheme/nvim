@@ -32,7 +32,7 @@ function M.setup(colors, config)
 		Substitute = { bg = c.red, fg = c.base },
 
 		-- Visual selection
-		Visual = { bg = c.surface0 },
+		Visual = { bg = c.surface0, bold = true },
 		VisualNOS = { bg = c.surface0 },
 
 		-- Messages and command line
