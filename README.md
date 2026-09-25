@@ -149,8 +149,8 @@ require("oxide").setup({
 ```lua
 require("oxide").setup({
   styles = {
-    -- Remove all styling
-    comments = {},
+    -- Disable default comment italics
+    comments = { italic = false },
     -- Make functions stand out more
     functions = { bold = true, italic = true },
     -- Subtle variables

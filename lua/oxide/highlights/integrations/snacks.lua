@@ -8,7 +8,7 @@ function M.setup(colors)
 		-- Dashboard
 		SnacksDashboardHeader = { fg = c.subtext1 },
 		SnacksDashboardFooter = { fg = c.subtext1 },
-		SnacksDashboardKey = { fg = c.text, { bold = true } },
+		SnacksDashboardKey = { fg = c.text, bold = true },
 		SnacksBackdrop = { bg = "NONE" },
 		SnacksPickerMatch = { fg = c.blue },
 		SnacksInputBorder = { link = "FloatBorder" },

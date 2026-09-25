@@ -53,7 +53,7 @@ function M.setup(colors, config)
 
 	-- Apply user overrides
 	if config.on_highlights then
-		highlights = config.on_highlights(highlights, colors) or highlights
+		highlights = config.on_highlights(highlights, colors.colors) or highlights
 	end
 
 	return highlights
