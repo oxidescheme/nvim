@@ -87,7 +87,7 @@ function M.setup(colors, config)
 		RenderMarkdownSign = { bg = c.base },
 		RenderMarkdownMath = { fg = c.teal },
 		RenderMarkdownIndent = { fg = c.surface2 },
-		RenderMarkdownHtmlComment = { fg = c.subtext2, italic = true },
+		RenderMarkdownHtmlComment = { fg = c.subtext1, italic = true },
 	}
 end
 
