@@ -58,8 +58,8 @@ function M.setup(colors, config)
 
 		-- Borders
 		FloatBorder = { fg = c.surface2, bg = config.transparent and "NONE" or c.base },
-		WinSeparator = { fg = c.subtext2 },
-		VertSplit = { fg = c.subtext2 }, -- Legacy
+		WinSeparator = { fg = c.surface2 },
+		VertSplit = { fg = c.surface2 }, -- Legacy
 
 		-- Diff highlighting
 		DiffAdd = { bg = c.diff_add, fg = c.text },

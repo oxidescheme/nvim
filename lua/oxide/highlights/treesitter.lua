@@ -49,6 +49,7 @@ function M.setup(colors, config)
 
 		-- Operators
 		["@operator"] = { link = "Operator" },
+		["@operator.pointer"] = { fg = c.teal },
 
 		-- Types
 		["@type"] = { link = "Type" },

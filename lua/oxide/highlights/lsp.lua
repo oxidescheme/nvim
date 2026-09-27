@@ -26,6 +26,9 @@ function M.setup(colors, config)
 		["@lsp.mod.readonly"] = { fg = c.sky },
 		["@lsp.mod.static"] = { fg = c.purple },
 		["@lsp.mod.deprecated"] = { fg = c.pink, strikethrough = true },
+		["@lsp.typemod.parameter.readonly"] = { fg = c.text },
+		["@lsp.typemod.function.static"] = { fg = c.red },
+		["@lsp.typemod.method.static"] = { fg = c.red },
 
 		-- Diagnostic highlights
 		DiagnosticError = { fg = c.red },
