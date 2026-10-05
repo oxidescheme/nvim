@@ -1,7 +1,4 @@
 local config = require("oxide.config")
-local colors = require("oxide.colors")
-local highlights = require("oxide.highlights")
-local util = require("oxide.util")
 
 local M = {}
 
@@ -10,6 +7,10 @@ function M.setup(opts)
 end
 
 function M.load(opts)
+	local colors = require("oxide.colors")
+	local highlights = require("oxide.highlights")
+	local util = require("oxide.util")
+
 	-- Clear existing highlights
 	if vim.g.colors_name then
 		vim.cmd("hi clear")
