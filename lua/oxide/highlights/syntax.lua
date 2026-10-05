@@ -60,6 +60,12 @@ function M.setup(colors, config)
 		Field = { link = "Property" },
 		Property = { fg = c.blue },
 		Parameter = { link = "Variable" },
+
+		-- Configuration keys without Tree-sitter
+		yamlMappingKey = { link = "Property" },
+		tomlKey = { link = "Property" },
+		tomlKeyDq = { link = "Property" },
+		tomlKeySq = { link = "Property" },
 	}
 end
 
