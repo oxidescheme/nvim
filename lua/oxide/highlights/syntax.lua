@@ -47,7 +47,7 @@ function M.setup(colors, config)
 		Special = { fg = c.text },
 		SpecialChar = { fg = c.text },
 		Tag = { fg = c.pink },
-		Delimiter = { fg = c.text },
+		Delimiter = { fg = c.subtext0 },
 		SpecialComment = { fg = c.subtext1 },
 		Debug = { fg = c.pink },
 

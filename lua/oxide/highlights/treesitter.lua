@@ -73,11 +73,11 @@ function M.setup(colors, config)
 		["@special"] = { link = "Special" },
 		["@tag"] = { fg = c.pink },
 		["@tag.attribute"] = { fg = c.teal },
-		["@tag.delimiter"] = { fg = c.text },
+		["@tag.delimiter"] = { link = "Delimiter" },
 
 		-- Punctuation
-		["@punctuation.delimiter"] = { fg = c.text },
-		["@punctuation.bracket"] = { fg = c.text },
+		["@punctuation.delimiter"] = { link = "Delimiter" },
+		["@punctuation.bracket"] = { link = "Delimiter" },
 		["@punctuation.special"] = { fg = c.text },
 
 		-- Literals
