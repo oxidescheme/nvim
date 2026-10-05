@@ -17,9 +17,9 @@ function M.setup(colors, config)
 		Boolean = vim.tbl_extend("force", { fg = c.orange }, styles.booleans or {}),
 		Float = { fg = c.orange },
 
-		-- Identifiers (back to blue, variables white)
-		Identifier = vim.tbl_extend("force", { fg = c.blue }, styles.variables or {}),
-		Function = vim.tbl_extend("force", { fg = c.red }, styles.functions or {}),
+		-- Identifiers and functions
+		Identifier = vim.tbl_extend("force", { fg = c.text }, styles.variables or {}),
+		Function = vim.tbl_extend("force", { fg = c.teal }, styles.functions or {}),
 
 		-- Statements
 		Statement = { fg = c.purple },
@@ -31,11 +31,11 @@ function M.setup(colors, config)
 		Exception = { fg = c.purple },
 
 		-- Preproc
-		PreProc = { fg = c.teal },
-		Include = { fg = c.teal },
-		Define = { fg = c.teal },
-		Macro = { fg = c.teal },
-		PreCondit = { fg = c.teal },
+		PreProc = { link = "Keyword" },
+		Include = { link = "Keyword" },
+		Define = { link = "Keyword" },
+		Macro = { link = "Constant" },
+		PreCondit = { link = "Keyword" },
 
 		-- Types
 		Type = { fg = c.sky },
@@ -56,10 +56,10 @@ function M.setup(colors, config)
 		Todo = { fg = c.yellow, bold = true },
 
 		-- Added for better syntax support
-		Variable = vim.tbl_extend("force", { fg = c.text }, styles.variables or {}),
-		Field = { fg = c.text },
+		Variable = { link = "Identifier" },
+		Field = { link = "Property" },
 		Property = { fg = c.blue },
-		Parameter = { fg = c.text },
+		Parameter = { link = "Variable" },
 	}
 end
 

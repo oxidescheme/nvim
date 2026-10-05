@@ -21,21 +21,24 @@ function M.setup(colors, config)
 		["@boolean"] = { link = "Boolean" },
 		["@float"] = { link = "Float" },
 
-		-- Identifiers and variables (variables and parameters white, properties blue)
-		["@variable"] = { fg = c.text },
-		["@variable.builtin"] = { fg = c.text },
-		["@variable.parameter"] = { fg = c.text },
-		["@variable.member"] = { fg = c.text },
-		["@property"] = { fg = c.blue },
-		["@field"] = { fg = c.text },
+		-- Neutral variables and parameters, blue properties and fields
+		["@variable"] = { link = "Variable" },
+		["@variable.builtin"] = { link = "Variable" },
+		["@variable.parameter"] = { link = "Parameter" },
+		["@variable.parameter.builtin"] = { link = "Parameter" },
+		["@variable.member"] = { link = "Property" },
+		["@property"] = { link = "Property" },
+		["@field"] = { link = "Field" },
 
 		-- Functions
 		["@function"] = { link = "Function" },
-		["@function.builtin"] = { fg = c.red },
-		["@function.macro"] = { fg = c.red },
-		["@function.call"] = { fg = c.red },
-		["@method"] = { fg = c.red },
-		["@method.call"] = { fg = c.red },
+		["@function.builtin"] = { link = "Function" },
+		["@function.macro"] = { link = "Function" },
+		["@function.call"] = { link = "Function" },
+		["@function.method"] = { link = "Function" },
+		["@function.method.call"] = { link = "Function" },
+		["@method"] = { link = "Function" },
+		["@method.call"] = { link = "Function" },
 		["@constructor"] = { fg = c.text },
 
 		-- Keywords
@@ -62,6 +65,9 @@ function M.setup(colors, config)
 		["@preproc"] = { link = "PreProc" },
 		["@include"] = { link = "Include" },
 		["@define"] = { link = "Define" },
+		["@keyword.import"] = { link = "Include" },
+		["@keyword.directive"] = { link = "PreProc" },
+		["@keyword.directive.define"] = { link = "Define" },
 
 		-- Special
 		["@special"] = { link = "Special" },
@@ -76,6 +82,7 @@ function M.setup(colors, config)
 
 		-- Literals
 		["@string.regex"] = { fg = c.teal },
+		["@string.regexp"] = { link = "@string.regex" },
 		["@string.escape"] = { fg = c.pink },
 
 		-- Markup (Markdown, etc.)

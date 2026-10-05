@@ -159,6 +159,22 @@ require("oxide").setup({
 })
 ```
 
+### Function Colors
+
+Functions, methods, and callable macros use teal. To restore red function highlighting:
+
+```lua
+require("oxide").setup({
+  styles = {
+    functions = { fg = "#ed756e" },
+  },
+})
+
+vim.cmd.colorscheme("oxide")
+```
+
+The override also applies to calls, built-in functions, and static functions and methods.
+
 ### Integration with Other Plugins
 
 oxide works seamlessly with popular plugins:

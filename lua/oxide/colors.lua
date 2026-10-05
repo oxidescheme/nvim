@@ -19,15 +19,15 @@ local palette = {
 	subtext2 = "#555555", -- oklch(0.45 0 0) Line numbers, separators, non-text marks
 
 	-- Accent colors
-	red = "#ed756e", -- oklch(0.70 15 25) Functions, errors, critical items
+	red = "#ed756e", -- oklch(0.70 15 25) Errors, critical items
 	orange = "#e48233", -- oklch(0.70 15 55) Constants, numbers, warnings
 	yellow = "#c39900", -- oklch(0.70 15 90) Attention, todo
 	lime = "#9ca81f", -- oklch(0.70 15 115) Headings, progression, positive accents
 	green = "#5bb661", -- oklch(0.70 15 145) Strings, success, added items
-	teal = "#00baaa", -- oklch(0.70 15 185) Preproc, regex, attributes
-	sky = "#00b3d6", -- oklch(0.70 15 215) Types, readonly, URLs
-	blue = "#3ba6f5", -- oklch(0.70 15 245) Properties, info, search, directories
-	purple = "#968ff7", -- oklch(0.70 15 285) Keywords, storage, static
+	teal = "#00baaa", -- oklch(0.70 15 185) Functions, callable macros, regex, attributes
+	sky = "#00b3d6", -- oklch(0.70 15 215) Types, URLs
+	blue = "#3ba6f5", -- oklch(0.70 15 245) Properties, fields, info, search, directories
+	purple = "#968ff7", -- oklch(0.70 15 285) Keywords, directives, storage
 	pink = "#cc7bd1", -- oklch(0.70 15 325) Tags, special strings, deprecated
 
 	-- Accent colors (lighter, used for ANSI terminal colors)

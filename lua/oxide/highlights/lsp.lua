@@ -12,23 +12,25 @@ function M.setup(colors, config)
 		["@lsp.type.enumMember"] = { link = "@constant" },
 		["@lsp.type.function"] = { link = "@function" },
 		["@lsp.type.interface"] = { link = "@type" },
-		["@lsp.type.macro"] = { link = "@constant.macro" },
+		-- Let Treesitter distinguish constant macros from callable macros.
+		["@lsp.type.macro"] = {},
 		["@lsp.type.method"] = { link = "@function.method" },
 		["@lsp.type.namespace"] = { link = "@module" },
-		["@lsp.type.parameter"] = { fg = c.text },
-		["@lsp.type.property"] = { fg = c.blue },
+		["@lsp.type.parameter"] = { link = "@variable.parameter" },
+		["@lsp.type.property"] = { link = "@property" },
 		["@lsp.type.struct"] = { link = "@type" },
 		["@lsp.type.type"] = { link = "@type" },
 		["@lsp.type.typeParameter"] = { link = "@type" },
-		["@lsp.type.variable"] = { fg = c.text },
+		["@lsp.type.variable"] = { link = "@variable" },
 
 		-- LSP semantic token modifiers
-		["@lsp.mod.readonly"] = { fg = c.sky },
-		["@lsp.mod.static"] = { fg = c.purple },
+		-- Preserve each symbol's color when readonly or static.
+		["@lsp.mod.readonly"] = {},
+		["@lsp.mod.static"] = {},
 		["@lsp.mod.deprecated"] = { fg = c.pink, strikethrough = true },
-		["@lsp.typemod.parameter.readonly"] = { fg = c.text },
-		["@lsp.typemod.function.static"] = { fg = c.red },
-		["@lsp.typemod.method.static"] = { fg = c.red },
+		["@lsp.typemod.parameter.readonly"] = { link = "Parameter" },
+		["@lsp.typemod.function.static"] = { link = "Function" },
+		["@lsp.typemod.method.static"] = { link = "Function" },
 
 		-- Diagnostic highlights
 		DiagnosticError = { fg = c.red },
