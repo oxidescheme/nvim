@@ -7,31 +7,25 @@ local syntax = require("oxide.highlights.syntax")
 local treesitter = require("oxide.highlights.treesitter")
 local lsp = require("oxide.highlights.lsp")
 
--- Auto-load all integration files
-local function load_all_integrations(colors, config)
+-- Keep this list in sync with the bundled integration modules.
+local integration_names = {
+	"blinkcmp",
+	"flash",
+	"render_markdown",
+	"snacks",
+	"treesitter_context",
+}
+
+local function load_integrations(colors, config)
 	local integrations = {}
 
-	-- Get the runtime path to find integration files
-	local integration_files = vim.fn.globpath(
-		table.concat(vim.api.nvim_list_runtime_paths(), ","),
-		"lua/oxide/highlights/integrations/*.lua",
-		false,
-		true
-	)
-
-	for _, filepath in ipairs(integration_files) do
-		-- Extract module name from filepath
-		local module_name = filepath:match("integrations/([^/]+)%.lua$")
-		if module_name then
-			local module_path = "oxide.highlights.integrations." .. module_name
-
-			-- Try to require and setup the integration
-			local success, integration_module = pcall(require, module_path)
-			if success and integration_module and type(integration_module.setup) == "function" then
-				local int_success, integration_highlights = pcall(integration_module.setup, colors, config)
-				if int_success and integration_highlights then
-					integrations = vim.tbl_extend("force", integrations, integration_highlights)
-				end
+	for _, module_name in ipairs(integration_names) do
+		local module_path = "oxide.highlights.integrations." .. module_name
+		local success, integration_module = pcall(require, module_path)
+		if success and integration_module and type(integration_module.setup) == "function" then
+			local int_success, integration_highlights = pcall(integration_module.setup, colors, config)
+			if int_success and integration_highlights then
+				integrations = vim.tbl_extend("force", integrations, integration_highlights)
 			end
 		end
 	end
@@ -48,8 +42,8 @@ function M.setup(colors, config)
 	highlights = vim.tbl_extend("force", highlights, treesitter.setup(colors, config))
 	highlights = vim.tbl_extend("force", highlights, lsp.setup(colors, config))
 
-	-- Merge integrations (auto-discovered)
-	highlights = vim.tbl_extend("force", highlights, load_all_integrations(colors, config))
+	-- Merge bundled integrations
+	highlights = vim.tbl_extend("force", highlights, load_integrations(colors, config))
 
 	-- Apply user overrides
 	if config.on_highlights then
