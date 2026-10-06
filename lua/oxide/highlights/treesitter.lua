@@ -58,6 +58,7 @@ function M.setup(colors, config)
 		["@type"] = { link = "Type" },
 		["@type.builtin"] = { fg = c.sky },
 		["@type.definition"] = { fg = c.sky },
+		["@module"] = { link = "Type" },
 		["@storageclass"] = { link = "StorageClass" },
 		["@structure"] = { link = "Structure" },
 
@@ -71,6 +72,7 @@ function M.setup(colors, config)
 
 		-- Special
 		["@special"] = { link = "Special" },
+		["@attribute"] = { fg = c.teal },
 		["@tag"] = { fg = c.pink },
 		["@tag.attribute"] = { fg = c.teal },
 		["@tag.delimiter"] = { link = "Delimiter" },
